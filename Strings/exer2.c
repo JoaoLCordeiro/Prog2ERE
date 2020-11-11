@@ -7,7 +7,7 @@
 int main ()
 {
 	char *string = (char *) malloc ((MAX+1)*sizeof(char));
-	fgets (string,MAX,stdin);
+	fgets (string,MAX+1,stdin);
 	int tam=0;
 	while (string[tam] != '\0')
 	{

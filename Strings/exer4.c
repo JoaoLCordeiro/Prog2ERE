@@ -9,7 +9,7 @@ int main ()
 	char ** mstring = (char **) malloc ((MAX)*sizeof(char *));
 	int i=0;
 	mstring[i] = (char *) malloc ((MAX+1)*sizeof(char));
-	fgets (mstring[i],MAX,stdin);
+	fgets (mstring[i],MAX+1,stdin);
 	while (mstring[i][0] != '\n')
 	{
 		i++;
