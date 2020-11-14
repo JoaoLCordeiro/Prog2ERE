@@ -33,7 +33,7 @@ int main ()
 	qsort (longv,DEZM,sizeof(long),comparlong);
 
 	fclose (arq);
-	arq = fopen ("dezmilhãolong.txt","w");
+	arq = fopen ("dezmilhaolong.txt","w");
 
 	fwrite (longv,sizeof(long),DEZM,arq);
 
