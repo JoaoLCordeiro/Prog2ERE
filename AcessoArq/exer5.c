@@ -38,5 +38,8 @@ int main (int argc, char **argv)
 		fprintf (arq2,"%c",c);
 	}
 
+	fclose (arq1);
+	fclose (arq2);
+
 	exit (0);
 }	
